@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing:border-box;
+}
+.navHead{
+    z-index:100;
+    background-color: white;
+    border: 2px solid ;
+    min-height:80px;
+    position: sticky;
+    top: 0;
+}
+.dropDowns{
+    display: flex;
+    overflow-x: hidden;
+    list-style: none;
+}
+.dropDowns{
+    background-color: #282525;
+}
+.dropDowns li a {
+    color:white;
+    text-decoration: none;
+
+}
+.dropDowns li {
+    min-width: 100px;
+    flex-grow: 1;
+    margin-inline: 5px;
+}
+.sada
+{
+    width:100%;
+    display: flex;
+    overflow-x: hidden;
+    list-style: none;
+    font-size: 1.01rem;
+    padding:20px;
+}
+
+.sada li a 
+{
+    text-decoration: none;
+    color:black;
+}
+
+.sada li {
+    margin-inline: 10px;
+}
+
+.button{
+    margin-right: 300px;
+}
+.asideUl{
+    background-color:#282525;
+    display: flex;
+    color:white;
+    width:230px;
+    flex-direction: column;
+    position: fixed;
+    top:82px;
+    height: calc(100vh - 82px);
+    overflow-y: scroll;
+}
+.aside li{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid white;
+}
+main{
+    padding:30px;
+    margin-left:200px;
+    min-height: 300vh;
+    font-style: oblique;
+    word-spacing: 20px;
+}
+.logo{
+    margin-right:30px;
+    position:relative;
+}
+.fa-archive{
+    font-size: 1.6rem;
+    position: absolute;
+    top:0px;
+}
+.fa-envelope{
+
+    position: absolute;
+    top:-13px;
+    transform: rotate(35deg);
+    font-size: 0.8rem;
+}
+.fa-archive a {
+    color:white;
+}
+button{
+    width:80px ;
+    padding:6px;
+    border-radius:6px;
+    border:none;
+    color:white;
+    margin-inline:6px;
+    background-color:#282525 ;
+}
+.kameena{
+/* margin-left:400px; */
+}
+.grow{
+    flex-grow: 2;
+}
+button:hover{
+    background-color: #6e6e6e ;
+}
+.image{
+    width:200px;
+    height:auto;
+}
+.card
+{
+    margin: auto;
+    border-radius: 10px;
+    width:400px;
+    border:2px solid black;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.nameDiv{
+    min-width:80%;
+    border:1px solid ;
+    padding:10px;
+    word-spacing:10px;
+    text-align: center;
+    border-radius:6px;
+    font-size: 1.2rem;
+
+}
